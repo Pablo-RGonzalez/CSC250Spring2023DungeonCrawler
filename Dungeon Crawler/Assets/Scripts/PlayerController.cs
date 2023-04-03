@@ -36,7 +36,6 @@ public class PlayerController : MonoBehaviour
         {
             this.rb.AddForce(this.westExit.transform.position * movementSpeed);
         }
-
     }
 
 
