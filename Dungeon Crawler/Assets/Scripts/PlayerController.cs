@@ -89,7 +89,6 @@ public class PlayerController : MonoBehaviour
         {
             this.hasEntered = false;
         }
-
             if (other.gameObject == this.northExit)
             {
                 SceneManager.LoadScene("GoingNorthExitingFromSouthScene");
